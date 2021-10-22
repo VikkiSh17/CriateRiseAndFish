@@ -1,0 +1,30 @@
+$primary-color: #FFFF;
+
+.container-foManuBar {
+    Width:1977px;
+    Height:146px;
+    Left:-37px;
+    position: absolute;
+    width: 1977px;
+    height: 146px;
+    left: -37px;
+    top: 0px;
+}
+.nav {
+    .ul {
+        display: inline;
+        list-style-type: none;
+
+         .li {
+            list-style-type: none;
+            float: left;
+            .a { color: #d61919c9;
+                .a:hover {
+                color: black;
+                }
+            }
+        }
+    }
+}
+
+/*Этот файл не отображается на хосте по каким-то причинам*/

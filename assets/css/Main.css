@@ -1,0 +1,166 @@
+/* HEADER */
+
+.wrapper {
+    width: 1920px;
+}
+
+head{
+    width: 500px;
+    height: 1500px;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+
+.logo-img {
+    margin-left: 200px;
+    padding-top: 10px;
+}
+
+.nav{
+    width:1977px;
+    height:146px;
+    position: absolute;
+    width: 1977px;
+    height: 146px;
+    left: 270px;
+    right: auto;
+    top: 0px;
+    padding-top: 20px;
+}
+
+.NewHeaderFixed head {
+    margin-bottom: 890px;
+}
+
+.NewHeaderFixed {
+    position: fixed;
+    top: 0;
+}
+
+ul.panel-sort1{
+    display: inline;
+    list-style-type: none;
+    
+}
+
+li{
+    display: inline;
+    text-align: center;
+    font-family:  Monotype Corsiva;
+    font-size:16px;
+    padding: 10px;
+}
+
+input {
+    width: 710px;
+    height: 30px;
+    position: absolute;
+    top:70px;
+    left: 320px;
+    border-radius: 5px;
+    font-family:  Monotype Corsiva;
+    font-size:16px;
+}
+
+.seach-sucsess {
+   
+    position: absolute;
+    top:75px;
+    left: 1000px;
+}
+
+.number {
+    position: absolute;
+    top:20px;
+    left: 1060px;
+}
+.time-magazine {
+    position: absolute;
+    top:20px;
+    left: 1260px;
+}
+.profile {
+    position: absolute;
+    top:65px;
+    left: 1060px;
+}
+.bookmark{
+    position: absolute;
+    top:67px;
+    left: 1133px;
+}
+.basket{
+    position: absolute;
+    top:67px;
+    left: 1196px;
+}
+.many{
+    position: absolute;
+    top:80px;
+    left: 1280px;
+}
+
+.promo-scrol{
+    position: absolute;
+    top: 369px;
+    left: 67px;
+}
+.promo-scrol2{
+    position: absolute;
+    top: 369px;
+    left: 1820px;
+}
+
+.menu-set-tag_group{
+    height: 100%;
+    display: block;
+}
+
+.float-set-tag_group {
+    position: sticky;
+    top: 0;
+}
+
+.container_menu-set-tag{
+    display: inline;
+    width: 145px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-style:ridge;
+    border-radius: 2px;
+    border: rgb(201, 201, 201);
+    padding-top: 116px; /* padding сейчас не работает - переношу в основ файл*/
+}
+
+/* BODY */
+
+body{
+    height: auto;
+}
+
+h1 {
+    font-size: 4em;
+    float:none;
+}    /*работает*/
+
+h2 {
+    font-size: 4em;
+    float:left;
+}    /*не работает-почему?!*/
+
+
+.container-product-small{
+    width: 368px;
+    height: 500px;
+    margin: 10px;
+}    /*не работает-почему?!*/
+
+
+/* FOOTER */
+
+
+.container-footer {
+    height: 477px;
+    width: 1000px;
+    float: inline-end;
+}
